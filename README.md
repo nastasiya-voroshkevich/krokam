@@ -1,1 +1,1 @@
-# typescript-essentials
+# krokam
