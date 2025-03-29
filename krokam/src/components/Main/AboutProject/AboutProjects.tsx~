@@ -1,0 +1,5 @@
+export const AboutProjects = () => {
+    return (
+        <h3>Footer Content</h3>
+    );
+};
