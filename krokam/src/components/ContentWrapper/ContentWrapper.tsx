@@ -1,5 +1,4 @@
 import {ReactNode} from "react";
-import styles from "./ContentWrapper.module.css";
 
 type ContentWrapperProps = {
     children: ReactNode
@@ -14,10 +13,10 @@ export const ContentWrapper = ({children, type, className, id}: ContentWrapperPr
     const showFooter = type === 'footer';
 
     return (
-        <div className={styles.container}>
+        <>
             {showHeader && (<header id={id} className={className}>{children}</header>)}
             {showMain && (<main className={className}>{children}</main>)}
             {showFooter && (<footer id={id}  className={className}>{children}</footer>)}
-        </div>
+        </>
     );
 };

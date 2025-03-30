@@ -1,11 +1,15 @@
 .logo {
 width: 117px;
 height: 24px;
-margin-top: 0.8rem;
 }
 
 .header {
     padding-top: 2.5rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.lang {
+   margin-top: 5px; 
 }
