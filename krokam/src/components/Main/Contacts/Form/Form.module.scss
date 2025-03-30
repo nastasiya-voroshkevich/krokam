@@ -1,0 +1,63 @@
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 40px 10px 10px;
+  gap: 10px;
+
+  width: 522px;
+  height: 41px;
+  margin-top: 8px;
+  border: 1px solid #0e152e;
+  border-radius: 10px;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 40px 10px 10px;
+  gap: 10px;
+  margin-top: 8px;
+  width: 1068px;
+  height: 41px;
+  margin-bottom: 30px;
+  border: 1px solid #0e152e;
+  border-radius: 10px;
+}
+
+.form_wrapp {
+  display: flex;
+}
+
+.input_wrapp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  &:first-child {
+    margin-right: 15px;
+  }
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+border: 1.5px solid #000000;
+
+}
+
+.checkbox_wrapp {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.label_text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+color: #0E152E;
+}
