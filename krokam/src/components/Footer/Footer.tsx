@@ -1,5 +1,5 @@
 import { ContentWrapper } from "../ContentWrapper/ContentWrapper.tsx";
-import logo from "../Header/assets/logo.svg";
+import logo from "/public/logo.svg";
 import styles from "./Footer.module.scss";
 import { SectionWrapper } from "../SectionWrapper/SectionWrapper.tsx";
 import Frame from "./Frame.svg";

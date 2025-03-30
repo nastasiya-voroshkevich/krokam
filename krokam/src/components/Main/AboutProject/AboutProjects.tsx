@@ -1,4 +1,4 @@
-import video from "./video.png";
+import video from "/public/video.png";
 import styles from "./AboutProject.module.css";
 import { SectionWrapper } from "../../SectionWrapper/SectionWrapper";
 export const AboutProjects = () => {

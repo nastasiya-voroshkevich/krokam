@@ -1,8 +1,8 @@
 import {ContentWrapper} from "../ContentWrapper/ContentWrapper.tsx";
 import { Navbar } from "../Navbar/Navbar.tsx";
 import styles from "./Header.module.scss"
-import logo from "./assets/logo.svg"
-import lang from "./assets/lang.svg"
+import logo from "/public/logo.svg"
+import lang from "/public/lang.svg"
 import { SectionWrapper } from "../SectionWrapper/SectionWrapper.tsx";
 
 
